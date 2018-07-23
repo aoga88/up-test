@@ -1,9 +1,139 @@
-
-// Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
-// Variables
 @import "variables";
-
-// Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+@import "~materialize-css/sass/materialize.scss";
+@import "_animate";
+
+@import "clear_sans";
+@import "header";
+@import "footer";
+@import "button";
+@import "testimonials";
+
+.m-top-20 {
+  margin-top: 20px;
+}
+
+.m-top-30 {
+  margin-top: 30px;
+}
+
+.m-top-50 {
+  margin-top: 50px;
+}
+
+.m-top-80 {
+  margin-top: 80px;
+}
+
+.m-top-100 {
+  margin-top: 100px;
+}
+
+.m-bottom-40 {
+  margin-bottom: 40px;
+}
+
+.text-gray {
+  color: #666666;
+}
+
+@media (min-width: $screen-md-min) {
+  .col-md-15 {
+    width: 12.5%;
+    float: left;
+  }
+}
+
+.border-left {
+  border-left: 1px solid #EEEEEE;
+}
+
+.brand-item {
+  height: 120px;
+  line-height: 120px;
+  padding: 10px 25px;
+
+  img {
+    display: inline;
+  }
+}
+
+.vertical-center {
+  line-height: 120px;
+}
+
+h2 {
+  font-family: 'Clear Sans', sans-serif;
+  font-size: 36px;
+}
+
+.item-resource {
+  color: #ffffff;
+  padding-top: 75px;
+  min-height: 425px;
+  font-family: 'Clear Sans', sans-serif;
+  font-size: 28px;
+
+  .icon {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  h3 {
+    font-family: 'Clear Sans', sans-serif;
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+    color: #666666;
+    font-family: 'Clear Sans', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.dark-purple-resource {
+  background-color: #2E2142;
+}
+
+.light-purple-resource {
+  background-color: #3B2A55;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.50);
+}
+
+.transparent-resource {
+  background: none;
+  color: #000000;
+  padding: 30px 40px;
+}
+
+.white-resource {
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0 2px 20px 0 rgba(0,0,0,0.50);
+  padding: 30px;
+}
+
+@media (min-width: $screen-md-min) {
+  .dark-purple-resource {
+    margin-top: 20px;
+  }
+}
+
+.solutions {
+  background-image: url('/images/solutions-image.png');
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.container-launch {
+  background-image: url('/images/bg-launch.png');
+  padding-bottom: 120px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
