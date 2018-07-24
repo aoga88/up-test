@@ -12,4 +12,9 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+    .js('resources/assets/js/testimonials.js', 'public/js')
+    .combine([
+        'node_modules/slick-carousel/slick/slick.js',
+        'node_modules/materialize-css/js/parallax.js',
+    ], 'public/js/vendors.js')
+    .sass('resources/assets/sass/app.scss', 'public/css');

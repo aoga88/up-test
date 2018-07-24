@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="16px" viewBox="0 0 11 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Example---Home-Examples" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-example,-v2" transform="translate(-732.000000, -3903.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="testimonials" transform="translate(-362.000000, 3291.000000)">
+                <g id="slider" transform="translate(0.000000, 129.000000)">
+                    <g id="arrows" transform="translate(1085.000000, 476.000000)">
+                        <g id="left" transform="translate(15.000000, 15.000000) scale(-1, 1) translate(-15.000000, -15.000000) ">
+                            <polygon id="chevron-up" transform="translate(15.594937, 14.698150) rotate(90.000000) translate(-15.594937, -14.698150) " points="9.78632911 19.3962999 15.5949367 13.590555 21.4035443 19.3962999 23.1898734 17.6071081 15.5949367 10 8 17.6071081"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

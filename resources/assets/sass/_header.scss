@@ -1,0 +1,71 @@
+header {
+  min-height: 700px;
+  background-image: url('/images/paul-bence-395888.jpg');
+  background-size: cover;
+  padding-top: 220px;
+  color: #ffffff;
+
+  h1 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 68px;
+    font-family: 'Clear Sans', sans-serif;
+  }
+
+  h3 {
+    font-family: 'Clear Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+  }
+}
+
+.sticky-op {
+  background-color: rgba(0,0,0,0.4) !important;
+  margin-top: 0 !important;
+  padding-top: 20px;
+}
+
+@media (max-width: $screen-sm-max) {
+  header {
+    padding-top: 150px;
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  .m-top-50 {
+    margin-top: 30px;
+  }
+}
+
+.navbar {
+  height: 100px;
+  background: none;
+  border: none;
+  box-shadow: none;
+  margin-top: 30px;
+
+  .navbar-nav {
+    font-size: 18px !important;
+    font-family: 'Clear Sans', sans-serif;
+    font-weight: 500;
+
+    li {
+      a {
+        color: #ffffff;
+
+        &:active,
+        &:hover {
+          color: #eeeeee;
+        }
+      }
+    }
+  }
+}
+
+.social-icon {
+  a {
+    padding: 14px 10px !important;
+  }
+}

@@ -1,0 +1,34 @@
+footer {
+  background-color: #2E2142;
+
+  .navbar {
+    height: auto;
+
+    .navbar-nav {
+      li {
+        a {
+          color: #ffffff;
+
+          &:active,
+          &:hover {
+            color: #eeeeee;
+          }
+        }
+      }
+    }
+  }
+
+  hr {
+    border-color: #BCC6D0;
+    opacity: 0.4;
+  }
+
+  .row {
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Clear Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
