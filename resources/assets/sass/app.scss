@@ -1,5 +1,9 @@
-@import "~materialize-css/sass/materialize.scss";
 @import "variables";
+@import "~materialize-css/sass/components/color";
+@import "~materialize-css/sass/components/variables";
+@import "~materialize-css/sass/components/normalize";
+@import "~materialize-css/sass/components/typography";
+@import "~materialize-css/sass/components/global";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import "~font-awesome/scss/font-awesome";
 @import "~slick-carousel/slick/slick";
@@ -11,6 +15,10 @@
 @import "footer";
 @import "button";
 @import "testimonials";
+
+.btn-warning {
+  background-color: $brand-warning !important;
+}
 
 .m-top-20 {
   margin-top: 20px;
